@@ -1,0 +1,366 @@
+@media only screen and (max-width:1024px) {
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* header */
+
+
+    .navbar form {
+        display: none !important;
+    }
+
+
+    /* content first */
+
+
+    .content-first .navbar {
+        background-color: white !important;
+    }
+
+    .content-first .nav-link {
+        color: black !important;
+    }
+
+
+    /* content second */
+
+
+    .content-second p {
+        font-size: 4vw !important;
+    }
+
+
+    /* content third */
+
+
+    .content-third .col-lg-6 i {
+        font-size: 8vw;
+    }
+
+
+    /* content four */
+
+
+    .content-four .row2 .col-lg-3 {
+        animation: none !important;
+    }
+
+    .content-four .row2 .four-slider {
+        height: 40vh;
+        border: 2px solid red;
+    }
+
+    .four-slider-bottom p {
+        font-size: 1.8vw;
+    }
+
+    .four-slider-bottom .four-bottom span {
+        font-size: 2.5vw !important;
+    }
+
+
+    /* content five */
+
+
+    .content-five .row1 .col-md-4 i {
+        font-size: 12vw !important;
+    }
+
+    .content-five .row2 .col-md-4 i {
+        font-size: 12vw !important;
+    }
+
+
+    /* content ten */
+
+
+    .content-ten .row .col-md-6 p {
+        font-size: 2.5vw !important;
+    }
+
+    .content-ten .row .col-md-6 span {
+        font-size: 2.5vw !important;
+    }
+
+
+    /* content eleven */
+
+
+
+    .content-eleven .row2 .eleven-card-bottom a {
+        font-size: 2vw;
+    }
+
+
+    /* content footer */
+
+
+    .content-footer {
+        overflow: hidden;
+    }
+
+    .content-footer ul {
+        padding-top: 10px !important;
+        width: 50% !important;
+    }
+
+    .content-footer ul li b {
+        font-size: 4vw;
+    }
+
+    .content-footer ul li h5 {
+        margin-top: 20px !important;
+    }
+}
+
+@media only screen and (max-width:576px) {
+
+
+    /* scroll */
+
+
+    .scroll a i{
+        font-size: 5vw;
+    }
+
+
+    /* content first */
+
+
+    .content-first .carousel-control-next {
+        scale: .7;
+    }
+
+    .content-first .carousel-control-prev {
+        scale: .7;
+    }
+
+    .content-first .carousel p {
+        font-size: 10vw !important;
+    }
+
+    .content-first .first-b {
+        display: none;
+    }
+
+
+    /* content second */
+
+
+    .content-second p {
+        font-size: 6vw !important;
+    }
+
+
+    /* content third */
+
+
+    .content-third .col-lg-6 i {
+        font-size: 10vw;
+    }
+
+
+    /* content four */
+
+
+    .content-four .row2 .four-slider {
+        height: 50vh;
+        border: 2px solid red;
+    }
+
+    .four-slider-bottom p {
+        font-size: 3vw !important;
+    }
+
+    .four-slider-bottom .four-bottom span {
+        font-size: 4.5vw !important;
+    }
+
+
+    /* content five */
+
+
+    .content-five h2 {
+        text-align: center;
+    }
+
+    .content-five span {
+        text-align: center;
+    }
+
+    .content-five .row1 .col-md-4 i {
+        font-size: 14vw !important;
+        -webkit-text-stroke: 2px #4F5FEE !important;
+    }
+
+    .content-five .row2 .col-md-4 i {
+        font-size: 14vw !important;
+        -webkit-text-stroke: 2px #4F5FEE !important;
+    }
+
+
+    /* content ten */
+
+
+    .content-ten .row .col-md-6 p {
+        font-size: 4vw !important;
+    }
+
+    .content-ten .row .col-md-6 span {
+        font-size: 4vw !important;
+    }
+
+
+    /* content eleven */
+
+
+
+    .content-eleven .row2 .eleven-card-bottom a {
+        font-size: 5vw;
+    }
+
+
+    /* content twelve */
+
+
+
+    .content-twelve .row1 h1 {
+        text-align: center;
+    }
+
+
+    /* content footer */
+
+
+    .content-footer ul {
+        width: 100% !important;
+    }
+
+    .content-footer ul li b {
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (max-width:429px) {
+
+
+    /* content first */
+
+
+    .content-first .navbar-toggler {
+        scale: .7;
+    }
+
+    .content-first .first-b {
+        display: none;
+    }
+
+    .content-first .first-li {
+        display: none;
+    }
+
+
+    /* content third */
+
+
+    .content-third h1 {
+        text-align: center !important;
+    }
+
+
+    /* content four */
+
+
+    .content-four .row1 h1 {
+        text-align: center;
+    }
+
+    .content-four .row1 p {
+        font-size: 3vw !important;
+    }
+
+    .four-slider {
+        height: 70vh !important;
+    }
+
+    .four-slider .fa-bookmark {
+        height: 8vw !important;
+        width: 8vw !important;
+        font-size: 3vw !important;
+    }
+
+    .four-slider-bottom .four-bottom span {
+        font-size: 4vw !important;
+    }
+
+    .four-slider-bottom .four-bottom .btn {
+        font-size: 4vw !important;
+    }
+
+
+    /* content five */
+
+
+
+
+    /* content footer */
+
+
+    .content-footer ul li b {
+        font-size: 7vw;
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+
+    /* scroll */
+    
+
+    .scroll{
+        height: 30px;
+        width: 30px;
+    }
+
+
+    .scroll a i{
+        font-size: 4vw;
+    }
+
+    /* content four */
+
+
+
+    .four-slider {
+        height: 50vh !important;
+    }
+
+    .four-slider h5 {
+        font-size: 4vw !important;
+    }
+
+    .four-slider p {
+        padding: 0px !important;
+        font-size: 2.5vw !important;
+    }
+
+
+    /* content ten */
+
+
+    .content-ten .row .col-md-6 .carousel-indicators button {
+        height: 50px !important;
+        width: 50px !important;
+    }
+
+
+    /* content eleven */
+
+
+    .content-eleven .row2 .eleven-card-bottom a {
+        font-size: 4.5vw;
+    }
+}
